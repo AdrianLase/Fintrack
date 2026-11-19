@@ -1,0 +1,72 @@
+name: fintrack
+description: "Aplikasi Pencatatan Keuangan Profesional FinTrack"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🎨 Icon Bawaan Flutter
+  cupertino_icons: ^1.0.8
+
+  # 💾 Database & Penyimpanan (Core)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # 🏗 State Management (Otak Aplikasi)
+  provider: ^6.1.1
+
+  # 📅 Format Tanggal & Mata Uang (Rp)
+  intl: ^0.19.0
+
+  # 📊 Visualisasi Grafik (Chart Neon City & Holo Card)
+  fl_chart: ^0.66.0
+
+  # 🔠 Font Keren (Poppins)
+  google_fonts: ^6.1.0
+
+  # 🧭 Icon Keren (FontAwesome)
+  font_awesome_flutter: ^10.6.0
+
+  # 🔐 Keamanan (Fingerprint/PIN - Opsional)
+  local_auth: ^2.1.8
+
+  # 📸 Kamera & Galeri (Ambil Foto Struk)
+  image_picker: ^1.0.7
+
+  # 📂 Akses File System (Simpan Path Foto)
+  path_provider: ^2.1.2
+
+  # 🤖 KECERDASAN BUATAN (OCR - Scan Angka di Struk)
+  google_mlkit_text_recognition: ^0.13.0
+
+  # ✨ ANIMASI & UI (Neon City, Raid Boss)
+  animate_do: ^3.3.4        # Animasi masuk (FadeInUp, ZoomIn)
+  confetti: ^0.7.0          # Efek ledakan kertas (Level Up)
+  percent_indicator: ^4.2.3 # HP Bar Boss & XP Bar
+
+  # 🔊 EFEK SUARA (Sonic Feedback)
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # 🧹 Linter (Agar kodingan rapi)
+  flutter_lints: ^5.0.0
+
+  # ⚙️ Code Generator (Wajib untuk Hive)
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  # 📂 DAFTAR ASET (GAMBAR & SUARA)
+  assets:
+    - assets/sounds/
